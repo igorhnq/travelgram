@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --background-color: #FFFFFF;
+    --brand-color: #EF5F4C;
+    --text-color-primary: #313131;
+    --text-color-secondary: #6C6C6C;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency: #FFFFFF;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 32px;
+}
+
+h1 {
+    color: var(--brand-color);
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 125%;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+section {
+    padding: 0 32px 0 32px;
+}
+
+header, .bio {
+    background-color: var(--surface-color);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 26px;
+    color: var(--text-color-secondary);
+}
+
+.bio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-info {
+    width: 625px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+h2 {
+    color: var(--text-color-primary);
+    font-size: 32px;
+}
+
+p {
+    color: var(--text-color-secondary);
+    line-height: 170%;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color-secondary);
+    
+}
+
+.more-info div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color-secondary);
+    margin: 32px 0 32px 0;
+    padding: 0 32px 0 32px;
+}
+
+footer div {
+    display: flex;
+    gap: 20px;
+}
+
+.feed {
+    margin: 24px 0 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
